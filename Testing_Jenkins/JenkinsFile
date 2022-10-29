@@ -1,0 +1,15 @@
+pipeline{
+    agent{
+        label:'Docker_Agent'
+    }
+
+    stages{
+        stage('Stage0'){
+            steps{
+                sh 'java -version'
+                echo 'Get working dir'
+                sh 'pwd'
+            }
+        }
+    }
+}
