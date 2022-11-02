@@ -6,9 +6,7 @@ pipeline{
     stages{
         stage('Stage0'){
             steps{
-                sh 'java -version'
-                echo 'Get working dir'
-                sh 'pwd'
+                echo 'Hello World'
             }
         }
     }
