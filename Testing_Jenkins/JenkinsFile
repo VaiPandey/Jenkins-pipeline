@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Stage0'){
             steps{
-                echo 'Hello World'
+                echo 'Hello World from the outside'
             }
         }
     }
