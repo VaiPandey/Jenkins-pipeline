@@ -1,0 +1,25 @@
+pipeline{
+    agnet{
+        label Agent_01
+    }
+    parameters{
+        string(name: 'REF', defaultValue: 'dir_name', description: 'Reference to a dir')
+    }
+    environment{
+        REF_VAR = credentials('ref_var')
+    }
+    stages{
+        stage{
+            steps{
+                script{
+                    try{
+
+                    }
+                    catch(err){
+                        
+                    }
+                }
+            }
+        }
+    }
+}
